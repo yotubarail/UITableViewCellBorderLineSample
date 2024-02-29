@@ -13,6 +13,11 @@
 		5DB447E62B6C9C93007CE56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB447E42B6C9C93007CE56C /* Main.storyboard */; };
 		5DB447E82B6C9C95007CE56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB447E72B6C9C95007CE56C /* Assets.xcassets */; };
 		5DB447EB2B6C9C95007CE56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB447E92B6C9C95007CE56C /* LaunchScreen.storyboard */; };
+		5DB447F42B6C9ED8007CE56C /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB447F22B6C9ED8007CE56C /* TopicTableViewCell.swift */; };
+		5DB447F52B6C9ED8007CE56C /* TopicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB447F32B6C9ED8007CE56C /* TopicTableViewCell.xib */; };
+		5DB447F82B6CE501007CE56C /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB447F62B6CE501007CE56C /* DataTableViewCell.swift */; };
+		5DB447F92B6CE501007CE56C /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB447F72B6CE501007CE56C /* DataTableViewCell.xib */; };
+		5DB447FB2B7F749B007CE56C /* CustomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB447FA2B7F749B007CE56C /* CustomBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5DB447E72B6C9C95007CE56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB447EA2B6C9C95007CE56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DB447EC2B6C9C95007CE56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB447F22B6C9ED8007CE56C /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		5DB447F32B6C9ED8007CE56C /* TopicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicTableViewCell.xib; sourceTree = "<group>"; };
+		5DB447F62B6CE501007CE56C /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		5DB447F72B6CE501007CE56C /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		5DB447FA2B7F749B007CE56C /* CustomBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				5DB447DE2B6C9C93007CE56C /* AppDelegate.swift */,
 				5DB447E02B6C9C93007CE56C /* SceneDelegate.swift */,
 				5DB447E22B6C9C93007CE56C /* ViewController.swift */,
+				5DB447F22B6C9ED8007CE56C /* TopicTableViewCell.swift */,
+				5DB447F32B6C9ED8007CE56C /* TopicTableViewCell.xib */,
+				5DB447F62B6CE501007CE56C /* DataTableViewCell.swift */,
+				5DB447F72B6CE501007CE56C /* DataTableViewCell.xib */,
+				5DB447FA2B7F749B007CE56C /* CustomBorder.swift */,
 				5DB447E42B6C9C93007CE56C /* Main.storyboard */,
 				5DB447E72B6C9C95007CE56C /* Assets.xcassets */,
 				5DB447E92B6C9C95007CE56C /* LaunchScreen.storyboard */,
@@ -125,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB447F92B6CE501007CE56C /* DataTableViewCell.xib in Resources */,
 				5DB447EB2B6C9C95007CE56C /* LaunchScreen.storyboard in Resources */,
+				5DB447F52B6C9ED8007CE56C /* TopicTableViewCell.xib in Resources */,
 				5DB447E82B6C9C95007CE56C /* Assets.xcassets in Resources */,
 				5DB447E62B6C9C93007CE56C /* Main.storyboard in Resources */,
 			);
@@ -139,6 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DB447E32B6C9C93007CE56C /* ViewController.swift in Sources */,
+				5DB447FB2B7F749B007CE56C /* CustomBorder.swift in Sources */,
+				5DB447F42B6C9ED8007CE56C /* TopicTableViewCell.swift in Sources */,
+				5DB447F82B6CE501007CE56C /* DataTableViewCell.swift in Sources */,
 				5DB447DF2B6C9C93007CE56C /* AppDelegate.swift in Sources */,
 				5DB447E12B6C9C93007CE56C /* SceneDelegate.swift in Sources */,
 			);
