@@ -68,7 +68,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         dataCell.isUserInteractionEnabled = false
         
         // cellの再利用対策として一度ボーダーラインの設定をなくす
-        topicCell.topicLabel.layer.borderWidth = 0
         removeBorder(view: topicCell.topicLabel)
         removeBorder(view: dataCell.logicNameView)
         removeBorder(view: dataCell.valueView)
