@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "id": "1",
         "name": "ブログ書き太郎",
         "favorite": [
-          "frutes": "りんご",
+          "fruits": "りんご",
           "number": 3,
           "subject": "国語"
         ]
@@ -32,7 +32,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "id": "2",
         "name": "ブログ読み次郎",
         "favorite": [
-          "frutes": "みかん",
+          "fruits": "みかん",
           "number": 100,
           "subject": "数学"
         ]
@@ -98,7 +98,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if (i["favorite"] != nil) {
                 labelTextArray.append("お気に入り")
                 let favoriteInfoData = (i["favorite"] as? [String : Any])!
-                labelTextArray.append(Item(logicName: "フルーツ", value: "\(favoriteInfoData["frutes"] ?? "-")"))
+                labelTextArray.append(Item(logicName: "フルーツ", value: "\(favoriteInfoData["fruits"] ?? "-")"))
                 labelTextArray.append(Item(logicName: "数字", value: "\(favoriteInfoData["number"] ?? "-")"))
                 labelTextArray.append(Item(logicName: "教科", value: "\(favoriteInfoData["subject"] ?? "-")"))
                 labelTextArray.append(Item(logicName: "飲み物", value: "\(favoriteInfoData["drink"] ?? "-")"))
